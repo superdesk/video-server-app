@@ -1,2 +1,2 @@
-rest: gunicorn -c gunicorn_config.py wsgi
-work: celery -A worker worker
+rest: gunicorn -c gunicorn_config.py videoserver.wsgi
+work: celery -A videoserver.worker worker
