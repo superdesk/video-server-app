@@ -29,7 +29,6 @@ honcho start
  
  ```
 git clone https://github.com/superdesk/video-server-app.git
-cd video-server-app/docker
 docker-compose up -d
 ```
 
