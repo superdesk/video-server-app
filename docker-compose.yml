@@ -13,7 +13,6 @@ services:
       - mongodb_data:/data/db
   server:
     build: .
-    command: honcho start
     container_name: video-server
     ports:
       - "5050:5050"
