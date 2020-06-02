@@ -43,6 +43,7 @@ you can use next commands:
 
 ```
 git clone https://github.com/superdesk/video-server-app.git
+cd video-server-app/
 # build an image
 docker build -t <image-name> .
 # run a container using "host" network mode
