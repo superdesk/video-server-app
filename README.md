@@ -52,3 +52,7 @@ docker run -d --network host --name <container-name> <image-name>
 
 Method described above will work only on Linux hosts, and is not supported on Docker Desktop for Mac, Docker Desktop for Windows, or Docker EE for Windows Server.
 As an option you can use [links](https://docs.docker.com/network/links/) or [network](https://docs.docker.com/network/) to conntect your containers.
+
+### Using with Superdesk
+
+To use a video-server with a [Superdesk](https://github.com/superdesk/superdesk-core) see the [docs](https://github.com/superdesk/superdesk-core/blob/develop/docs/video_server.rst)
